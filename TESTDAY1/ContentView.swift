@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+  @State var thekr = "الحمدالله"
     var body: some View {
-        Text("Hello, World!")
+        ZStack{
+            BG()
+            
+                
+          Text(thekr)
+         .font(.largeTitle)
+         .foregroundColor(.white)
+            .multilineTextAlignment(.center)
+            .padding()
+            .onTapGesture {
+                self.thekr = athkar.randomElement()!
+            }
+                
+            
+        
+        }
+        .edgesIgnoringSafeArea(.all)
+        
     }
 }
 
@@ -19,3 +37,21 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct BG: View {
+    var body: some View {
+        ZStack{Image("BACKGROUND")
+            .resizable()
+            VStack{
+                Image("Header")
+                    .resizable()
+                    .scaledToFit()
+                Spacer()
+                Image("Mosque")
+                    .resizable()
+                    .scaledToFit()
+                
+            }}
+    }
+}
+

@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4A77B7245DF43900552E0F /* thekrcounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A77B6245DF43900552E0F /* thekrcounter.swift */; };
 		3B91BD4F245D369F00A6FFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91BD4E245D369F00A6FFC4 /* AppDelegate.swift */; };
 		3B91BD51245D369F00A6FFC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91BD50245D369F00A6FFC4 /* SceneDelegate.swift */; };
 		3B91BD53245D369F00A6FFC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91BD52245D369F00A6FFC4 /* ContentView.swift */; };
 		3B91BD55245D36A500A6FFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B91BD54245D36A500A6FFC4 /* Assets.xcassets */; };
 		3B91BD58245D36A500A6FFC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B91BD57245D36A500A6FFC4 /* Preview Assets.xcassets */; };
 		3B91BD5B245D36A500A6FFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B91BD59245D36A500A6FFC4 /* LaunchScreen.storyboard */; };
+		3B91BD63245D402400A6FFC4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91BD62245D402400A6FFC4 /* SwiftUIView.swift */; };
+		3B91BD65245D486000A6FFC4 /* KHATMA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91BD64245D486000A6FFC4 /* KHATMA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4A77B6245DF43900552E0F /* thekrcounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thekrcounter.swift; sourceTree = "<group>"; };
 		3B91BD4B245D369F00A6FFC4 /* TESTDAY1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTDAY1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B91BD4E245D369F00A6FFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B91BD50245D369F00A6FFC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		3B91BD57245D36A500A6FFC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B91BD5A245D36A500A6FFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B91BD5C245D36A500A6FFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B91BD62245D402400A6FFC4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3B91BD64245D486000A6FFC4 /* KHATMA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHATMA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				3B91BD4E245D369F00A6FFC4 /* AppDelegate.swift */,
 				3B91BD50245D369F00A6FFC4 /* SceneDelegate.swift */,
 				3B91BD52245D369F00A6FFC4 /* ContentView.swift */,
+				3B4A77B6245DF43900552E0F /* thekrcounter.swift */,
+				3B91BD64245D486000A6FFC4 /* KHATMA.swift */,
 				3B91BD54245D36A500A6FFC4 /* Assets.xcassets */,
 				3B91BD59245D36A500A6FFC4 /* LaunchScreen.storyboard */,
 				3B91BD5C245D36A500A6FFC4 /* Info.plist */,
 				3B91BD56245D36A500A6FFC4 /* Preview Content */,
+				3B91BD62245D402400A6FFC4 /* SwiftUIView.swift */,
 			);
 			path = TESTDAY1;
 			sourceTree = "<group>";
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B91BD4F245D369F00A6FFC4 /* AppDelegate.swift in Sources */,
+				3B4A77B7245DF43900552E0F /* thekrcounter.swift in Sources */,
 				3B91BD51245D369F00A6FFC4 /* SceneDelegate.swift in Sources */,
+				3B91BD65245D486000A6FFC4 /* KHATMA.swift in Sources */,
+				3B91BD63245D402400A6FFC4 /* SwiftUIView.swift in Sources */,
 				3B91BD53245D369F00A6FFC4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
